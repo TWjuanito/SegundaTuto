@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav {
+    background: #0066ff;
+    width: 1880px;
+    height: 140px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 2rem;
+    position: relative;
+    animation: salto .6s;
+}
+
+.nav-ul li {
+    display: inline-block;
+    padding-inline-start: 60px;
+    margin-top: 70px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.nav-ul li a {
+    color: #fff;
+    background: #bdbdbd;
+    border-radius: 1rem;
+    padding: 5px;
+}
+
+
+.nav-ul li a:hover {
+    background: #0099ff;
+}
+
+@keyframes salto {
+    0%, 100% {top: 0;}
+    30% {top: -18px;}
+}
+
+
+.aboutMe-container{
+    width: 600px;
+    height: 300px;
+    border: 1px solid #000;
+
+}
+
+.aboutMe-container, .aboutMe {
+    margin-left: 700px;
+    margin-top: 230px;
+}
+
+.aboutMe-img {
+    width: 220px;
+    height: 298px;
+    margin-left: -68px;
+}
+
+.aboutMe {
+    font-size: 20px;
+    position: absolute;
+    left: 230px;
+    bottom: 290px;
+    font-family: sans-serif;
+}
+
+
+.aboutMe-title{
+    font-size: 30px;
+    position: absolute;
+    left: 1100px;
+    bottom: 600px;
+    font-family: sans-serif;
+}
+
